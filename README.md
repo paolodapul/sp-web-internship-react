@@ -1,30 +1,25 @@
-# React + TypeScript + Vite
+# Stratpoint Web Internship React Starter
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Project Features to be Delivered
 
-Currently, two official plugins are available:
+- User authentication (sign-in)
+- User profile creation and management
+- Post creation
+- Post liking and commenting
+- Follow requests between users
+- Index pages for posts and users
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Getting Started
 
-## Expanding the ESLint configuration
+### Prerequisites
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+- [Node version manager](https://github.com/nvm-sh/nvm?tab=readme-ov-file#installing-and-updating)
+- Node ~v.20
 
-- Configure the top-level `parserOptions` property like this:
+### Project setup
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
-
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+1. Clone the repository from [here](https://github.com/paolodapul/sp-web-internship-react).
+2. Run `npm install` to install your Node dependencies.
+3. Refer to the `scripts` section of your `package.json` file. See and explore what commands you can run.
+4. This boilerplate comes with pre-installed shadcn components. Feel free to install new ones depending on your needs.
+5. You can use the `App.tsx` component as your reference and starting point in building your React application.
